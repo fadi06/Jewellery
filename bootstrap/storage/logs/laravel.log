@@ -1,0 +1,16 @@
+[2017-11-17 21:31:53] production.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at G:\\xampp\\htdocs\\jewellery\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:52)
+[stacktrace]
+#0 G:\\xampp\\htdocs\\jewellery\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(52): RecursiveDirectoryIterator->__construct('', 4096)
+#1 G:\\xampp\\htdocs\\jewellery\\vendor\\symfony\\finder\\Finder.php(666): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 G:\\xampp\\htdocs\\jewellery\\vendor\\symfony\\finder\\Finder.php(568): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 G:\\xampp\\htdocs\\jewellery\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 G:\\xampp\\htdocs\\jewellery\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 G:\\xampp\\htdocs\\jewellery\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 G:\\xampp\\htdocs\\jewellery\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 G:\\xampp\\htdocs\\jewellery\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 G:\\xampp\\htdocs\\jewellery\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 G:\\xampp\\htdocs\\jewellery\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 G:\\xampp\\htdocs\\jewellery\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 G:\\xampp\\htdocs\\jewellery\\index.php(21): require_once('G:\\\\xampp\\\\htdocs...')
+#12 {main}
+"} 
